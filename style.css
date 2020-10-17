@@ -1,0 +1,51 @@
+.wrapper {
+	box-sizing: border-box;
+	margin-left: 33px;
+	margin-top: 23px;
+	margin-right: 48px;
+	border: 1px dashed red;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.logo {
+	background-image: url(logo.png);
+	background-repeat: no-repeat;
+	width: 166px;
+	height: 51px;
+	border: 1px solid green;
+	background-color: green;
+	padding-right: 77px;
+}
+
+.menu {
+	background-color: blue;
+	min-width: 530px;
+}
+
+.menu__item:nth-child(1) {
+	
+}
+
+.menu__item:nth-child(2) {
+	
+}
+
+.menu__item:nth-child(3) {
+
+}
+
+.menu__item:nth-child(4) {
+
+}
+
+
+.burger {
+	background-color: yellow;
+	padding-right: 64px;
+}
+
+.burger__item:nth-child(1) {
+	margin-right: 37px;
+}
